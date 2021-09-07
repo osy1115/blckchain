@@ -18,8 +18,8 @@ function init(ws){
 }
 
 function initErrorHandler(ws){
-    ws.on("close",()=> closeConnection(ws)})
-    ws.on("error",()=> closeConnection(ws)})
+    ws.on("close",()=> closeConnection(ws))
+    ws.on("error",()=> closeConnection(ws))
 }
 
 function closeConnection(ws){
